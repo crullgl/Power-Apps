@@ -1,4 +1,4 @@
-# Problem Decision Tool - as seen at Micr0soft Federal BizApps Summit
+# Problem Decision Tool - as seen at Microsoft Federal BizApps Summit
 
 As Featured at the Microsoft Federal BizApps Summit
 The Problem Decision Tool streamlines how organizations classify and prioritize continuous improvement initiatives. Through a simple, guided question interface, users are directed to the most appropriate improvement pathway — whether that be a Rapid Process Improvement Workshop (RPIW), or a Lean Yellow Belt, Green Belt, or Black Belt project.
