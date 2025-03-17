@@ -4,6 +4,57 @@ As Featured at the Microsoft Federal BizApps Summit
 The Problem Decision Tool streamlines how organizations classify and prioritize continuous improvement initiatives. Through a simple, guided question interface, users are directed to the most appropriate improvement pathway — whether that be a Rapid Process Improvement Workshop (RPIW), or a Lean Yellow Belt, Green Belt, or Black Belt project.
 
 This tool, built in Power Apps, ensures that the scope and complexity of a problem are matched with the right resources and methodologies, empowering data-driven decision-making while driving efficiency and Lean process improvements across service lines.
+🛠️ Problem Decision Tool – Installation Guide
+As featured at the Microsoft Federal BizApps Summit
+
+The Problem Decision Tool helps users classify and route process improvement initiatives by guiding them through a simple question-based interface. It determines whether a Rapid Process Improvement Workshop (RPIW), Yellow Belt, Green Belt, or Black Belt project is most appropriate, supporting Lean methodologies and data-driven decision-making.
+
+📁 Installation Instructions
+1. Download the App Package
+Click to download:
+ProblemDecisionTool_20250317125920 (1).zip
+
+Do not unzip this file — it must be imported as-is into Power Apps.
+
+2. Access Power Apps
+Go to https://make.powerapps.com
+Sign in with your organizational account.
+3. Import the App
+In the left navigation pane, select Apps.
+Click Import canvas app (top-right).
+Click Upload and select the .zip file you downloaded.
+Click Next and review the resources.
+4. Configure Resources
+Under Connections, select existing connections (e.g., SharePoint, Power BI) or create new ones if prompted.
+Click Import to complete the setup.
+5. Launch the App
+Once imported, the app will appear under Apps.
+
+Click Play to run the app.
+Click Share to provide access to users or groups as needed.
+🔗 Embedded Links & HTML Use in the App
+This app uses the HTML Text control in Power Apps to dynamically render custom HTML content, including links to:
+
+Websites (e.g., SharePoint, VA.gov)
+Documents (PDFs, Word files)
+Email addresses (mailto: links)
+Power BI Reports
+Example Link Syntax:
+html
+Copy
+Edit
+<a href="https://www.va.gov" target="_blank">Visit VA Website</a>
+Example Power Fx for Dynamic Links:
+powerapps
+Copy
+Edit
+Set(varHTML, "<a href='https://www.va.gov' target='_blank'>Visit VA</a>")
+The app intelligently changes guidance and embedded links based on user selections, improving user experience and engagement with resources.
+
+🛡️ Notes & Best Practices
+Ensure users have access to linked SharePoint resources and Power BI reports.
+The HTML Text control is secure (no script execution) — but always use trusted URLs.
+For performance, store complex HTML content in variables rather than inline in controls.
 
 🧩 Custom HTML in Power Apps — Linking to Resources
 The tool leverages the HTML Text control to dynamically present custom guidance and clickable links to:
@@ -64,32 +115,4 @@ powerapps
 <a href="https://va.gov" style="color:blue; font-weight:bold;" target="_blank">Bold Blue Link</a>
 🏁 Summary:
 The Problem Decision Tool doesn't just guide users — it empowers action by embedding direct access to relevant tools, contacts, and resources in real-time, all using HTML Text controls in Power Apps and smart Power Fx logic.
-
-How to Install the Problem Decision Tool
-📁 File: ProblemDecisionTool_20250317125920 (1).zip
-
-🛠️ Installation Steps
-1️⃣ Download the App Package
-Save the file ProblemDecisionTool_20250317125920 (1).zip to your local device.
-Do not extract/unzip the file.
-2️⃣ Open Power Apps
-Go to: https://make.powerapps.com
-Sign in using your work credentials (e.g., @va.gov).
-3️⃣ Import the App
-In the left menu, click Apps.
-In the top-right, click Import canvas app.
-4️⃣ Upload the Zip File
-Click Upload and select the ProblemDecisionTool_20250317125920 (1).zip file.
-Click Next.
-5️⃣ Review and Update Resources
-If prompted, update the Connections and Environment Variables:
-For Connections (e.g., SharePoint, Power BI): Select existing connections or create new ones.
-Click Import after confirming all resources.
-6️⃣ Launch the App
-After successful import, go to Apps, locate Problem Decision Tool, and click Play to test.
-Click Share to provide access to other users or groups.
-💡 Pro Tips
-🛠️ If you see missing connectors, go to Data > Connections and set them up first.
-📊 To enable Power BI links, ensure users have access to the linked Power BI report.
-🔒 Only users with permission to the app and data sources will be able to use it.
 
