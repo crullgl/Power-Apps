@@ -8,48 +8,34 @@ This tool, built in Power Apps, ensures that the scope and complexity of a probl
 🧩 Custom HTML in Power Apps — Linking to Resources
 The tool leverages the HTML Text control to dynamically present custom guidance and clickable links to:
 
-🔗 Websites (e.g., VA.gov, SharePoint)
+🔗 Websites (e.g., yoursite.org, SharePoint)
 📄 Documents (e.g., templates or resource folders)
 👨‍💼 Email contacts (mailto: links)
 📊 Power BI Reports
 🔗 Basic HTML Link Syntax
-html
-Copy
-Edit
+
 <a href="URL_HERE" target="_blank">Link Text Here</a>
 href: Destination (URL, document, email)
 target="_blank": Opens in a new tab/window
 Link Text Here: Clickable link label
 💻 Examples of Links Used in the Tool:
 1️⃣ Link to a Website:
-html
-Copy
-Edit
+
 <a href="https://www.va.gov" target="_blank">Visit VA Website</a>
 2️⃣ Link to a SharePoint Document:
-html
-Copy
-Edit
+
 <a href="https://yourorg.sharepoint.com/sites/Docs/Shared%20Documents/Example.pdf" target="_blank">View PDF Document</a>
 3️⃣ Email a Person:
-html
-Copy
-Edit
+
 <a href="mailto:john.doe@va.gov">Email John Doe</a>
 🧠 Power Fx – Dynamic HTML with Variables
 Power Fx allows dynamic link generation by concatenating values into the HTML string.
 
 Example:
-powerapps
-Copy
-Edit
 "<a href='https://yourorg.sharepoint.com/sites/Docs/" & FileName.Text & "' target='_blank'>Open Document</a>"
 ⚙️ Best Practices:
 Use variables for large or dynamic HTML blocks:
 
-powerapps
-Copy
-Edit
 Set(varHTML, "<a href='https://www.va.gov' target='_blank'>Visit VA</a>")
 Then bind the HTML control to varHTML.
 
@@ -74,9 +60,7 @@ powerapps
 
     "Contact your Systems Redesign Coordinators for assistance.")
 🎨 Optional Styling for Links:
-html
-Copy
-Edit
+
 <a href="https://va.gov" style="color:blue; font-weight:bold;" target="_blank">Bold Blue Link</a>
 🏁 Summary:
 The Problem Decision Tool doesn't just guide users — it empowers action by embedding direct access to relevant tools, contacts, and resources in real-time, all using HTML Text controls in Power Apps and smart Power Fx logic.
