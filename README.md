@@ -64,3 +64,32 @@ powerapps
 <a href="https://va.gov" style="color:blue; font-weight:bold;" target="_blank">Bold Blue Link</a>
 🏁 Summary:
 The Problem Decision Tool doesn't just guide users — it empowers action by embedding direct access to relevant tools, contacts, and resources in real-time, all using HTML Text controls in Power Apps and smart Power Fx logic.
+
+How to Install the Problem Decision Tool
+📁 File: ProblemDecisionTool_20250317125920 (1).zip
+
+🛠️ Installation Steps
+1️⃣ Download the App Package
+Save the file ProblemDecisionTool_20250317125920 (1).zip to your local device.
+Do not extract/unzip the file.
+2️⃣ Open Power Apps
+Go to: https://make.powerapps.com
+Sign in using your work credentials (e.g., @va.gov).
+3️⃣ Import the App
+In the left menu, click Apps.
+In the top-right, click Import canvas app.
+4️⃣ Upload the Zip File
+Click Upload and select the ProblemDecisionTool_20250317125920 (1).zip file.
+Click Next.
+5️⃣ Review and Update Resources
+If prompted, update the Connections and Environment Variables:
+For Connections (e.g., SharePoint, Power BI): Select existing connections or create new ones.
+Click Import after confirming all resources.
+6️⃣ Launch the App
+After successful import, go to Apps, locate Problem Decision Tool, and click Play to test.
+Click Share to provide access to other users or groups.
+💡 Pro Tips
+🛠️ If you see missing connectors, go to Data > Connections and set them up first.
+📊 To enable Power BI links, ensure users have access to the linked Power BI report.
+🔒 Only users with permission to the app and data sources will be able to use it.
+
