@@ -62,19 +62,17 @@ Here’s how HTML links are conditionally embedded based on the project type sel
 
 🔍 Sample Power Fx Code:
 powerapps
-Copy
-Edit
-If(
+
+
+    If(
     varGreenbeltselected = true,
     "This problem requires a Lean A3 Deep Dive. A Green Belt project impacts 2-4 service lines. Completion can award Lean Green Belt certification if facilitated by a trained individual.<br><br>" &
-
     "Recruit support here: <a href='https://app.powerbigov.us/Redirect?...' target='_blank'>Power BI (powerbigov.us)</a><br><br>" &
 
-    "Start with A3 templates: <a href='https://dvagov.sharepoint.com/sites/VHAAUGSR/Shared%20Documents/...'
+    "Start with A3 templates: <a href='https://environment.sharepoint.com/sites/location/Shared%20Documents/...'
     target='_blank'>CNVAMC Systems Redesign - A-3 Documents</a><br><br>" &
 
-    "Contact your Systems Redesign Coordinators for assistance."
-)
+    "Contact your Systems Redesign Coordinators for assistance.")
 🎨 Optional Styling for Links:
 html
 Copy
