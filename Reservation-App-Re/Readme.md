@@ -1,5 +1,12 @@
 # 🪑 Desk Reservation Power App Documentation
 
+![Reservation UI](images/Screenshot%202025-05-08%20154346.png)
+![Recurring Settings](images/Screenshot%202025-05-08%20153342.png)
+![Booking Overview](images/Screenshot%202025-05-08%20114656.png)
+![Time Slot Selection](images/Screenshot%202025-05-08%20095423.png)
+![Calendar View](images/Screenshot%202025-05-02%20125620.png)
+![Desk Info Screen](images/Screenshot%202025-05-02%20125321.png)
+
 This Power Platform app allows users to reserve desks and rooms, including support for **recurring reservations**. Below is an overview of the app’s data structure, recurrence logic, and key user interactions.
 
 ---
@@ -103,8 +110,8 @@ When the user clicks **Continue** after selecting date and time:
 
 To add a screenshot:
 
-1. Save the screenshot as `screenshot.png` in your repo (e.g., in a `/images` folder).
-2. Add this Markdown where you want the image:
+1. Save the screenshot in your repo under `/images`.
+2. Use this Markdown syntax to display it:
 
 ```markdown
-![Desk Reservation Screenshot](images/screenshot.png)
+![Your Alt Text](images/your-file-name.png)
