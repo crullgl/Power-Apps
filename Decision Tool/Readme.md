@@ -52,7 +52,7 @@ Based on scoring logic, it recommends one of these:
 
 ## 📸 Screenshot
 
-![Decision Tool UI](images/problem-decision-flow.png)
+![Decision Tool UI](images/Screenshot 2025-05-08 155534.png)
 
 ---
 
