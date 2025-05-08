@@ -104,14 +104,5 @@ When the user clicks **Continue** after selecting date and time:
 - Navigates to `DeskSelect` screen.
 - Builds a filterable collection `colRoomLocations` of all unique rooms with an "All Conference Rms" option.
 
----
 
-## 🖼️ Adding Screenshots to This README
 
-To add a screenshot:
-
-1. Save the screenshot in your repo under `/images`.
-2. Use this Markdown syntax to display it:
-
-```markdown
-![Your Alt Text](images/your-file-name.png)
