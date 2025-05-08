@@ -1,12 +1,12 @@
 # 🧭 Problem Decision Tool
 
-The **Problem Decision Tool** is a Power Platform-based triage app that helps users categorize problems and determine the appropriate level of intervention. Whether an issue is best suited for a **Just Do It**, **RPIW**, **Yellow Belt**, or **Green Belt** project, this app guides users through a consistent, structured decision-making process.
+![Decision Tool UI](images/Screenshot%202025-05-08%20155534.png)
+
+**The Problem Decision Tool** is a Power Platform-based triage app that helps users categorize problems and determine the appropriate level of intervention. Whether an issue is best suited for a `Just Do It`, `RPIW`, `Yellow Belt`, or `Green Belt` project, this app guides users through a consistent, structured decision-making process.
 
 ---
 
 ## 🔍 Purpose
-
-This tool was designed to help teams and leaders:
 
 - Quickly assess the scale and complexity of a problem  
 - Reduce ambiguity when deciding whether to escalate an issue  
@@ -26,35 +26,39 @@ This tool was designed to help teams and leaders:
 
 ## 📊 Decision Logic
 
-The tool asks questions like:
-
 - Is the root cause known?  
 - Is it isolated to one area or cross-functional?  
 - Does it involve safety, compliance, or major impact?  
 - How much effort would it take to address?  
 
-Based on scoring logic, it recommends one of these:
+**Possible outcomes:**
+- 🛠️ **Just Do It**
+- 🟡 **Yellow Belt**
+- 🚀 **RPIW**
+- 🟢 **Green Belt**
 
-- 🛠️ **Just Do It** – Quick, low-effort fix  
-- 🟡 **Yellow Belt** – Moderately scoped issue needing structure  
-- 🚀 **RPIW** – Workflow needs redesign via workshop  
-- 🟢 **Green Belt** – Larger data-driven problem-solving effort  
+---
+
+## 📈 ROI & Impact
+
+- 5 unnecessary RPIW requests avoided per year  
+- 10 employees × 40 hours = **2,000 labor hours saved**  
+- Estimated savings per facility: **$480,000/year**  
+- App cost to build: **$2,040** (40 hours × 2 developers)  
+- **ROI: 23,429%**  
+- Org-wide potential savings: **$22M+ in unrealized value**
+
+![ROI Summary](images/ROI-Screenshot.png)
 
 ---
 
 ## 🧠 Tech Stack
 
 - Power Apps Canvas App  
-- SharePoint list or Dataverse backend  
-- Conditional logic using `Switch()`, `If()`, `Score`, and `Patch()`  
+- SharePoint or Dataverse backend  
+- Logic via `Switch()`, `If()`, `Patch()`, and collections  
 
 ---
 
-## 📸 Screenshot
 
-![Decision Tool UI](images/Screenshot 2025-05-08 155534.png)
-
----
-
-## 📁 Repo Structure
 
