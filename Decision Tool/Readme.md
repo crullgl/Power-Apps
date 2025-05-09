@@ -10,7 +10,8 @@
 
 - Quickly assess the scale and complexity of a problem  
 - Reduce ambiguity when deciding whether to escalate an issue  
-- Align problems with appropriate Lean or PI tools  
+- Align problems with appropriate Lean or PI tools
+- Does not require a datasource but can add one for tracking. 
 
 ---
 
@@ -57,7 +58,10 @@
 - Power Apps Canvas App  
 - SharePoint or Dataverse backend  
 - Logic via `Switch()`, `If()`, `Patch()`, and collections  
-
+---
+## ✅Other suggested addons for the app
+- add a list that dynamically tracks ROI based on final selections
+  
 ---
 
 
